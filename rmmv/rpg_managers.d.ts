@@ -247,10 +247,10 @@ interface DataManagerStatic {
     checkError(): void;
     isBattleTest(): boolean;
     isEventTest(): boolean;
-    isSkill(): boolean;
-    isItem(): boolean;
-    isWeapon(): boolean;
-    isArmor(): boolean;
+    isSkill(item:RPG.BaseItem): boolean;
+    isItem(item:RPG.BaseItem): boolean;
+    isWeapon(item:RPG.BaseItem): boolean;
+    isArmor(item:RPG.BaseItem): boolean;
     createGameObjects(): void;
     setupNewGame(): void;
     setupBattleTest(): void;
