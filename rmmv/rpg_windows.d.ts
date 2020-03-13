@@ -115,6 +115,7 @@ declare class Window_Base extends _Window {
     dimColor2(): string;
     canvasToLocalX(x: number): number;
     canvasToLocalY(y: number): number;
+    reserveFaceImages():void;
 }
 
 /**
